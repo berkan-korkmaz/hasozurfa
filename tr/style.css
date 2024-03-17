@@ -2608,7 +2608,7 @@ ul {
 }
 @media only screen and (max-width: 480px) {
   .tasty-menu-area .tasty-menu-inner ul li .media {
-    text-align: center;
+    text-align: left;
     position: relative;
   }
 }
@@ -5741,6 +5741,11 @@ ul {
   position: relative;
   text-align: center;
 }
+.special-dish-area .special-dish-box a{
+  display: block;
+  width: 130px;
+  margin: auto;
+}
 @media only screen and (max-width: 480px) {
   .special-dish-area .special-dish-box {
     padding: 0 30px;
@@ -5761,7 +5766,7 @@ ul {
 @media only screen and (max-width: 767px) {
   .special-dish-area .special-dish-box span {
     right: 0;
-    left: 0;
+    left: 135px;
     top: 0;
     margin: 0 auto;
   }
